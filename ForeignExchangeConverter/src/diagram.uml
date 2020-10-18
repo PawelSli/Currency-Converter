@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="756.0277777777778" y="0.0">AdjustComponent</node>
+    <node x="997.375" y="536.0">ApplicationMain</node>
+    <node x="474.0" y="105.0">AdjustJTextField</node>
+    <node x="973.375" y="431.0">ApplicationController</node>
+    <node x="948.0" y="105.0">AdjustJComboBox</node>
+    <node x="792.0" y="210.0">ApplicationView</node>
+    <node x="1104.0" y="268.0">ApplicationModel</node>
+    <node x="0.0" y="105.0">AdjustJButton</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="AdjustJComboBox" target="AdjustComponent">
+      <point x="0.0" y="-27.5" />
+      <point x="1175.0" y="85.0" />
+      <point x="1039.7777777777778" y="85.0" />
+      <point x="56.75" y="27.5" />
+    </edge>
+    <edge source="ApplicationView" target="AdjustComponent">
+      <point x="109.5" y="-85.5" />
+      <point x="1047.5" y="190.0" />
+      <point x="1412.5" y="190.0" />
+      <point x="1412.5" y="75.0" />
+      <point x="1153.2777777777778" y="75.0" />
+      <point x="170.25" y="27.5" />
+    </edge>
+    <edge source="AdjustJButton" target="AdjustComponent">
+      <point x="0.0" y="-27.5" />
+      <point x="227.0" y="75.0" />
+      <point x="812.7777777777778" y="75.0" />
+      <point x="-170.25" y="27.5" />
+    </edge>
+    <edge source="ApplicationMain" target="ApplicationController">
+      <point x="-42.0" y="-27.5" />
+      <point x="1039.375" y="511.0" />
+      <point x="1027.375" y="511.0" />
+      <point x="-54.0" y="27.5" />
+    </edge>
+    <edge source="ApplicationController" target="ApplicationModel">
+      <point x="27.0" y="-27.5" />
+      <point x="1108.375" y="406.0" />
+      <point x="1151.75" y="406.0" />
+      <point x="-47.75" y="27.5" />
+    </edge>
+    <edge source="AdjustJTextField" target="AdjustComponent">
+      <point x="0.0" y="-27.5" />
+      <point x="701.0" y="85.0" />
+      <point x="926.2777777777778" y="85.0" />
+      <point x="-56.75" y="27.5" />
+    </edge>
+    <edge source="ApplicationView" target="AdjustJButton">
+      <point x="-109.5" y="-85.5" />
+      <point x="828.5" y="190.0" />
+      <point x="227.0" y="190.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="ApplicationView" target="AdjustJTextField">
+      <point x="-36.5" y="-85.5" />
+      <point x="901.5" y="180.0" />
+      <point x="701.0" y="180.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="ApplicationController" target="ApplicationView">
+      <point x="-81.0" y="-27.5" />
+      <point x="1000.375" y="406.0" />
+      <point x="865.0" y="406.0" />
+      <point x="-73.0" y="85.5" />
+    </edge>
+    <edge source="ApplicationView" target="AdjustJComboBox">
+      <point x="36.5" y="-85.5" />
+      <point x="974.5" y="180.0" />
+      <point x="1175.0" y="180.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes>
+    <node>AdjustComponent</node>
+    <node>ApplicationMain</node>
+    <node>AdjustJTextField</node>
+    <node>ApplicationController</node>
+    <node>AdjustJComboBox</node>
+    <node>ApplicationView</node>
+    <node>ApplicationModel</node>
+    <node>AdjustJButton</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
